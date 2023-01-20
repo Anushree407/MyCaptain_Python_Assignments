@@ -1,0 +1,17 @@
+
+(base) C:\Users\anush> python
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>> filename = input(" Input the Filename: ")
+ Input the Filename: MyCaptain.Python
+>>>
+>>> f_extns = filename.split(".")
+>>>
+>>>
+>>> print ("The extension of the file is : " + repr(f_extns[-1]))
+The extension of the file is : 'Python'
+>>>
+>>>
+>>>
